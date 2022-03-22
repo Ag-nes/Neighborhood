@@ -1,0 +1,38 @@
+{%extends 'base.html'%}
+{% load static %}
+
+{% block content %}
+{{block.super}}
+
+<div class="container">
+    <div class="row text-center">
+      <h4>Welcome To events Dashboard</h4>
+
+      <h6>Click to view post in the neighbourhood</h6>
+      <a href="{% url 'neighbourhood' %}">Add Hood</a>
+      {%for post in hood %}
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 mt-2">
+        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+            <center>
+               <a href="{% url 'event' post.id %}"><img src="{{post.hood_photo.url}}" class="img-responsive" id = "image1" alt="Image" width="200" height="150"></a> 
+                <h5>
+                  Event: {{post.name}}
+                </h5>
+                <small>
+                  Place: {{post.hood_location}}
+                </small>
+                <br>
+                <small>
+                  Posted: {{post.description}}
+                </small>
+            </center>
+          
+        </div>
+
+      </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
+   
