@@ -11,8 +11,8 @@ This is a web application that allows you to be in the loop about everything hap
 To have a copy of this project, you can clone it from my github account using these steps;
 
 Open your terminal (Ctrl+Alt+T)
-git clone $ git clone https://github.com/Tito-74/Neighborhood.git
-cd Neighborhood-App
+git clone
+cd Neighborhood
 code . or atom . based on your favorite text editor you have.
 
 ## Technologies Used
@@ -26,7 +26,6 @@ code . or atom . based on your favorite text editor you have.
  * Sign in with the application to start using.
  * Set up a profile about them and a general location and thier neighborhood name.
  * Find a list of different businesses in my neighborhood.
- * Find Contact Information for the health department and Police authorities near thier neighborhood.
  * Create Posts that will be visible to everyone in thier neighborhood.
  * Change My neighborhood when one decide to move out.
  * Only view details of a single neighborhood.
