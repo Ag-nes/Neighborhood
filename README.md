@@ -7,13 +7,41 @@
 ## Description
 This is a web application that allows you to be in the loop about everything happening in your neighborhood. 
 
-## Setup and Installation instructions
-To have a copy of this project, you can clone it from my github account using these steps;
+To get the project .......
 
-Open your terminal (Ctrl+Alt+T)
-git clone
-cd Neighborhood
-code . or atom . based on your favorite text editor you have.
+## Setup and Installations
+
+* Navigate into the folder and install requirements
+
+* cd Neighborhood pip install -r requirements.txt
+
+* Install and activate Virtual
+
+* python3.6 -m venv --without-pip virtual - source virtual/bin/activate 
+
+* Install Dependencies
+
+* pip install -r requirements.txt 
+
+* Setup Database
+
+* SetUp your database User,Password, Host then make migrate
+
+* python manage.py makemigrations Instagram
+
+* Now Migrate
+
+* python manage.py migrate 
+
+* Run the application
+
+* python manage.py runserver 
+
+* Testing the application
+
+* python manage.py test
+
+* Open the application on your browser 127.0.0.1:8000.
 
 ## Technologies Used
  * Python 
