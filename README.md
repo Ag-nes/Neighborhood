@@ -34,4 +34,6 @@ code . or atom . based on your favorite text editor you have.
 ## Further help
 For any challenge using the App please don't hesitate to contact me through Email: faithages2@gmail.com or call me through +254790279917
 
-<a href='https://github.com/Ag-nes/Neighborhood/blob/master/license'>MIT license</a>
+## MIT License
+* Copyright (c) 2022 Agnes Nafula
+
